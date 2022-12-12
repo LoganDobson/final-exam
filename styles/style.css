@@ -1,0 +1,151 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+nav{
+    background-color: #222f3e;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: center;
+}
+
+nav a {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 1em;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #222f3e;
+}
+
+
+/* HEADER */
+
+header {
+    background-image: url('../images/hong-feng-GcgntG01Ibg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 140px;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    font-size: 3.4em;
+}
+
+
+/* MAIN CONTENT */
+#main-content {
+    display: flex;
+    padding: 1em;
+   
+    
+    
+}
+
+#main-content figure{
+   float: left;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+/* MAIN */
+main{
+    width: 65%;
+    padding: 1rem;
+}
+
+
+/* ASIDE */
+
+
+aside {
+    
+    width: 30%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside h2 {
+    color: #222f3e;
+    font-size: 2.1em;
+    padding: 1em;
+    border-bottom: 1px solid #222f3e;
+    width: 100%;
+    text-align: center;
+    
+}
+
+aside ul {
+    list-style: none;
+    color: #222f3e;
+    
+    text-align: center;
+    font-size: 1em;
+}
+
+aside li {
+    padding: 1em;
+    border-bottom: 1px solid #fff;
+}
+
+
+figure img {
+    float: left;
+    width: 250px;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #222f3e;
+    color: #fff;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+#social-nav ul li{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    justify-content: center;
+    align-items: center;
+}
+
